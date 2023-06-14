@@ -1,4 +1,9 @@
+<hr>
 <h3>Listado de heroes</h3>
+<button
+class="mt-2 btn btn-primary"
+(click)="generate()"
+>Generar listado</button>
 
 <div *ngIf="deletedHeroe;else nothingDeleted">
   <h3 >Heroe borrado <small class="text-danger">{{deletedHeroe}}</small></h3>
